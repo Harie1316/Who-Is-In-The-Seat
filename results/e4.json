@@ -1,0 +1,122 @@
+{
+  "E4": {
+    "32x32 | raw": {
+      "res": 32,
+      "taxels_per_mat": 1024,
+      "variant": "raw",
+      "identity_acc": 0.9786331262312472,
+      "lodo_auc": 0.7531844044398843,
+      "lodo_ci": [
+        0.6852684948550056,
+        0.8224490345210533
+      ]
+    },
+    "32x32 | drive-normalised": {
+      "res": 32,
+      "taxels_per_mat": 1024,
+      "variant": "drive-normalised",
+      "identity_acc": 0.5490225791786635,
+      "lodo_auc": 0.821523178807947,
+      "lodo_ci": [
+        0.7758210923762271,
+        0.8682548714901983
+      ]
+    },
+    "16x16 | raw": {
+      "res": 16,
+      "taxels_per_mat": 256,
+      "variant": "raw",
+      "identity_acc": 0.9790877405667525,
+      "lodo_auc": 0.748665636201314,
+      "lodo_ci": [
+        0.6770378163434627,
+        0.8217789289040833
+      ]
+    },
+    "16x16 | drive-normalised": {
+      "res": 16,
+      "taxels_per_mat": 256,
+      "variant": "drive-normalised",
+      "identity_acc": 0.5496287316260039,
+      "lodo_auc": 0.8187691713193066,
+      "lodo_ci": [
+        0.7657213457082872,
+        0.8704872813361687
+      ]
+    },
+    "8x8 | raw": {
+      "res": 8,
+      "taxels_per_mat": 64,
+      "variant": "raw",
+      "identity_acc": 0.9792392786785876,
+      "lodo_auc": 0.743257825096273,
+      "lodo_ci": [
+        0.6724323838582887,
+        0.8165518933172032
+      ]
+    },
+    "8x8 | drive-normalised": {
+      "res": 8,
+      "taxels_per_mat": 64,
+      "variant": "drive-normalised",
+      "identity_acc": 0.547355659948477,
+      "lodo_auc": 0.8187582448332378,
+      "lodo_ci": [
+        0.7663496917030772,
+        0.8695718435384688
+      ]
+    },
+    "4x4 | raw": {
+      "res": 4,
+      "taxels_per_mat": 16,
+      "variant": "raw",
+      "identity_acc": 0.9578724049098348,
+      "lodo_auc": 0.7567884125947739,
+      "lodo_ci": [
+        0.6895909661160684,
+        0.8185786197675956
+      ]
+    },
+    "4x4 | drive-normalised": {
+      "res": 4,
+      "taxels_per_mat": 16,
+      "variant": "drive-normalised",
+      "identity_acc": 0.39824215790271256,
+      "lodo_auc": 0.8828608738523858,
+      "lodo_ci": [
+        0.8506993904396036,
+        0.913902870465662
+      ]
+    },
+    "2x2 | raw": {
+      "res": 2,
+      "taxels_per_mat": 4,
+      "variant": "raw",
+      "identity_acc": 0.7426882861039551,
+      "lodo_auc": 0.7669888203392541,
+      "lodo_ci": [
+        0.7087256957974879,
+        0.8274138726634919
+      ]
+    },
+    "2x2 | drive-normalised": {
+      "res": 2,
+      "taxels_per_mat": 4,
+      "variant": "drive-normalised",
+      "identity_acc": 0.2312471586604031,
+      "lodo_auc": 0.8630977920503151,
+      "lodo_ci": [
+        0.8285556244472853,
+        0.8953017608990342
+      ]
+    }
+  },
+  "paired_drive_norm_vs_raw": {
+    "delta_auc": 0.06833877436806268,
+    "ci": [
+      0.017624256665701655,
+      0.11920181035946886
+    ],
+    "p_one_sided": 0.003
+  }
+}
